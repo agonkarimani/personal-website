@@ -4,6 +4,7 @@
 
 body {
   background-color: #e4d8b4;
+  color: rgb(37, 36, 36);
   font-family: 'Zilla Slab Highlight', cursive;
   font-size: 118, 8%;
   line-height: 1, 4;
@@ -11,7 +12,6 @@ body {
   grid-gap: 1em;
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
-}
 }
 
 input,
@@ -21,27 +21,21 @@ textarea {
 }
 
 .page-header {
- margin-left: auto;
- margin-right: auto;
- text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
 }
 
-.heading{
+.heading {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.menu {
-  display: grid;
-  margin-left: auto;
-  margin-right: auto;
- }
-
- ul {
+ul {
   list-style-type: none;
-  padding: 0; 
-  margin: 10px; 
+  padding: 0;
+  margin: 10px;
 }
 
 a {
@@ -74,15 +68,83 @@ img {
 }
 
 .img-twi {
-   width: 16px;
-   object-fit: cover;
-   height: 16px;
+  width: 16px;
+  object-fit: cover;
+  height: 16px;
 }
 
 .img-git {
-   width: 16px;
-   object-fit: cover;
-   height: 16px; 
+  width: 16px;
+  object-fit: cover;
+  height: 16px;
 }
 
+.menu {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.flex {
+  background: #f0fff0;
+  padding: 10px;
+  margin-bottom: 50px;
+  color: rgb(37, 36, 36);
+  font-size: 14px;
+  text-align: center;
+  position: relative;
+}
+
+.flex:after {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 100%;
+  margin-top: 10px;
+  width: 100%;
+  color: #333;
+  font-size: 12px;
+}
+
+.flex1 {
+  flex-basis: auto;
+}
+
+.flex1:after {
+  content: 'auto';
+}
+
+.flex2 {
+  flex-basis: max-content;
+}
+
+.flex2:after {
+  content: 'max-content';
+}
+
+.flex3 {
+  flex-basis: min-content;
+}
+
+.flex3:after {
+  content: 'min-content';
+}
+
+.flex4 {
+  flex-basis: fit-content;
+}
+
+.flex4:after {
+  content: 'fit-content';
+}
+
+.flex5 {
+  flex-basis: content;
+}
+
+.flex5:after {
+  content: 'content';
+}
