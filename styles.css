@@ -1,4 +1,4 @@
-* {
+/* {
   box-sizing: border-box;
 }
 
@@ -13,7 +13,9 @@ body {
   grid-gap: 1em;
   grid-template-rows: auto auto 1fr auto;
   min-height: 100vh;
-}
+}*/
+
+@import url(_base.css);
 
 input,
 button,
@@ -35,11 +37,11 @@ a {
 a:hover {
   color: darkgray;
 }
-.page-header {
+/*.page-header {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-}
+}*/
 
 .heading {
   font-family: 'Zilla Slab Highlight', cursive;
