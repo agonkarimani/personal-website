@@ -29,7 +29,8 @@
 }
 
 .page-main {
-  text-align: center;
+  margin: 0 auto;
+  text-align: justify;
   border-bottom: 5px solid rgba(0, 0, 0, 0.678);
 }
 
