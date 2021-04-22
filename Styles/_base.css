@@ -4,9 +4,7 @@
 
 body {
   display: grid;
-
-  background-color: white;
-  color: rgb(37, 36, 36);
+  background-image: linear-gradient(to top, #fff1eb 0%, #fde7ca 100%);
   font-family: 'Open Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 124, 8%;
