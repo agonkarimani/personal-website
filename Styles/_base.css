@@ -3,9 +3,12 @@
 }
 
 body {
+  display: grid;
+
   background-color: white;
   color: rgb(37, 36, 36);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 124, 8%;
 }
 
