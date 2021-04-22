@@ -17,15 +17,12 @@
     height: 220px;
   }
 
-.page-header__img:hover {
-  box-shadow: 4px 4px 4px 6px rgba(0, 0, 0, 0.2);
-}
+
 
 .menu {
     margin-left: -35px;
     display: flex;
     justify-content: space-evenly;
-
 }
   
 .menu__item > * {
@@ -59,10 +56,6 @@
 .footer__img {
     width: 32px;
     height: 32px;
-  }
-  
-.footer__img:hover {
-    border: 3px solid peru;
   }
   
 @media (max-width: 500px) {
