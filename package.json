@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "live-server",
-    "test": "npx htmlhint '**/*.html'"
+    "test": "npx htmlhint '**/*.html'",
     "test": "npx stylelint '**/*.css'"
   },
   "repository": {
