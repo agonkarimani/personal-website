@@ -5,71 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <header class="page-header">
-      <h1 class="heading">&lt;Agon Karimani/&gt;</h1>
-
-      <picture>
-        <img src="/images/IMG_0002.jpg" alt="Agon Karimani" />
-      </picture>
-
+      <h1 class="page-header__title">Agon Karimani</h1>
+      <img
+        class="page-header__img"
+        src="/images/memoji.png"
+        alt="Agon Karimani"
+      />
       <nav>
         <ul class="menu">
-          <li class="fles flex 1"><a href="#skills">Skills</a></li>
-          <li class="fles flex 2"><a href="#interessen">Interessen</a></li>
-          <li class="fles flex 3"><a href="#kontakt">Socialmedia</a></li>
-          <li class="fles flex 4"><a href="#ueber">Bio</a></li>
-         
+          <li class="menu__item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a href="#interessen">Interessen</a>
+          </li>
+          <li class="menu__item">
+            <a href="#ueber">Bio</a>
+          </li>
+          <li class="menu__item">
+            <a href="#kontakt">Socialmedia</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main class="page-main">
+    <main>
       <section>
-        <div class="skills">
-          <h2 id="skills">Skills</span></h2>
+        <div class="page-main__skills">
+          <h2 id="skills">Skills</h2>
           <ul>
-            <li>💻  JavaScript</li>
-            <li>📱  Swift</li>
+            <li>💻 HTML</li>
+            <li>💻 CSS</li>
+            <li>💻 JavaScript</li>
+            <li>📱 Swift</li>
           </ul>
         </div>
       </section>
       <section>
-        <div class="interessen">
-          <h2 id="interessen">
-            Interessen
-          </h2>
+        <div class="page-main__interessen">
+          <h2 id="interessen">Interessen</h2>
           <ul>
-            <li>🤓  Web-Developtment</li>
-            <li>🤓  iOS-Development</li>
-            <li>⚽  Fußball | ManUtd</li>
+            <li>🤓 Web-Developtment</li>
+            <li>🤓 iOS-Development</li>
+            <li>⚽ Fußball | ManUtd</li>
           </ul>
         </div>
       </section>
       <section>
-        <div class="kontakt">
-          <h2 id="kontakt">Socialmedia
-          </h2>
-          <div class="socialmedia">
-          <img class="img-gmail" src="/images/gmail.webp" alt="E-Mail">
-           <img class="img-twi" src="/images/Twitter.png" alt="Twitter">
-           <img class="img-git" src="/images/GitHub-Mark-32px.png" alt="github">
-         </div>
-        </div>
-      </section>
-      <section>
-        <div class="ueber">
+        <div class="page-main__bio">
           <h2 id="ueber">Bio</h2>
-          <p>Lorem</p>
+          <ul>
+            <li>🎓 Abitur 2012</li>
+            <li>👔 Kundenservice | Kassenconcord | 2013 - 2020</li>
+            <li>👔 Kundenservice | Dealerdesk | 2020 - 2021</li>
+            <li>👨‍💻 iOS-Development Online-Kurs | ILS | 2020 - bis heute</li>
+            <li>
+              👨‍💻 Web-Developtment Bootcamp | Neuefische | 2021 - bis heute
+            </li>
+          </ul>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <section>
+        <div class="footer__kontakt">
+          <h2 id="kontakt">Socialmedia</h2>
+          <a href="mailto:agonkarimani@gmail.com"
+            ><img class="footer__img" src="/images/gmail.webp" alt="E-Mail"
+          /></a>
+          <a
+            href="https://twitter.com/agonkarimani?ref_src=twsrc%5Etfw"
+            class="twitter-follow-button"
+            data-show-count="false"
+            ><img class="footer__img" src="/images/Twitter.png" alt="Twitter"
+          /></a>
+          <a href="https://github.com/agonkarimani"
+            ><img
+              class="footer__img"
+              src="/images/GitHub-Mark-32px.png"
+              alt="github"
+          /></a>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>
